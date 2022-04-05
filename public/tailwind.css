@@ -793,6 +793,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   align-self: center;
 }
 
+.scroll-auto {
+  scroll-behavior: auto;
+}
+
 .rounded-lg {
   border-radius: 0.5rem;
 }
