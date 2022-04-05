@@ -1,5 +1,5 @@
 module.exports = {
-    mode:'jit',
+    mode: 'jit',
     content: [
         './public/index.html',
         './src/**/*.{html,js}'
@@ -17,6 +17,11 @@ module.exports = {
         container: {
             center: true,
             padding: '2rem',
+            screens: {
+                lg: '1124px',
+                xl: '2248px',
+                "2xl": '1124',
+            }
         },
     },
     plugins: [],
