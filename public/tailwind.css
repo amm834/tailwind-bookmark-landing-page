@@ -510,6 +510,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   z-index: 10;
 }
 
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .mt-4 {
   margin-top: 1rem;
 }
@@ -530,6 +535,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-left: 1.25rem;
 }
 
+.mt-20 {
+  margin-top: 5rem;
+}
+
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
 .flex {
   display: flex;
 }
@@ -538,12 +551,32 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: none;
 }
 
+.h-4\/5 {
+  height: 80%;
+}
+
+.h-4\/6 {
+  height: 66.666667%;
+}
+
+.h-3\/4 {
+  height: 75%;
+}
+
 .w-2\/4 {
   width: 50%;
 }
 
 .w-4\/6 {
   width: 66.666667%;
+}
+
+.w-3\/4 {
+  width: 75%;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .flex-1 {
@@ -596,8 +629,21 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(82 103 212 / var(--tw-bg-opacity));
 }
 
+.bg-bookmark-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(247 247 247 / var(--tw-bg-opacity));
+}
+
 .p-12 {
   padding: 3rem;
+}
+
+.p-20 {
+  padding: 5rem;
+}
+
+.p-28 {
+  padding: 7rem;
 }
 
 .py-4 {
@@ -625,6 +671,21 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 3rem;
 }
 
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -642,6 +703,20 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.font-bold {
+  font-weight: 700;
 }
 
 .text-bookmark-blue {
@@ -774,6 +849,18 @@ Ensure the default browser behavior of the `hidden` attribute.
     top: 8rem;
   }
 
+  .md\:bottom-40 {
+    bottom: 10rem;
+  }
+
+  .md\:top-28 {
+    top: 7rem;
+  }
+
+  .md\:top-24 {
+    top: 6rem;
+  }
+
   .md\:block {
     display: block;
   }
@@ -818,8 +905,20 @@ Ensure the default browser behavior of the `hidden` attribute.
     width: 50%;
   }
 
+  .md\:w-2\/3 {
+    width: 66.666667%;
+  }
+
+  .md\:w-5\/12 {
+    width: 41.666667%;
+  }
+
   .md\:flex-none {
     flex: none;
+  }
+
+  .md\:flex-1 {
+    flex: 1 1 0%;
   }
 
   .md\:flex-row {
@@ -828,6 +927,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:justify-start {
     justify-content: flex-start;
+  }
+
+  .md\:overflow-hidden {
+    overflow: hidden;
   }
 
   .md\:rounded-l-xl {
@@ -857,6 +960,32 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:p-0 {
     padding: 0px;
+  }
+
+  .md\:p-40 {
+    padding: 10rem;
+  }
+
+  .md\:p-28 {
+    padding: 7rem;
+  }
+
+  .md\:p-2 {
+    padding: 0.5rem;
+  }
+
+  .md\:p-20 {
+    padding: 5rem;
+  }
+
+  .md\:py-20 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .md\:py-24 {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
   }
 
   .md\:text-left {
